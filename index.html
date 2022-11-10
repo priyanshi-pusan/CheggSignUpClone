@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In or Sign Up| Chegg.com</title>
+    <link rel="icon" href="./assests/chegg.jpeg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8493bf0777.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="container">
+      <img src="./assests/Chegg-Logo.jpg" alt="Chegg Logo" class="nav_logo" />
+    </nav>
+
+    <hr id="line" />
+    <!-- Main -->
+    <main>
+      <div class="main_container">
+        <div id="text_form">
+          <h1>Sign In</h1>
+          <p>to your Chegg account</p>
+        </div>
+        <form class="main_form">
+          <label for="email">
+            <p>Email</p>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Enter your email"
+            />
+          </label>
+          <label for="password">
+            <p>Password</p>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              required
+              placeholder="Enter your password"
+            />
+          </label>
+          <button type="submit" id="signup_button">Sign In</button>
+          <div class="form_footer">
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+            <p>Forgot <a href="#">Password?</a></p>
+          </div>
+        </form>
+
+        <div class="sep">OR</div>
+        <div class="buttons">
+          <button id="apple_button">
+            <i class="fa-brands fa-apple"></i>
+          </button>
+
+          <button id="facebook_button">
+            <i class="fa-brands fa-square-facebook"></i>
+          </button>
+
+          <button id="google_button">
+            <img src="./assests/google.png" alt="google logo" />
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Form Entries -->
+    <table id="table" class="table_container">
+      <tr>
+        <th>Entry Number</th>
+        <th>Name</th>
+        <th>Password</th>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
